@@ -4,12 +4,23 @@
 a{
     text-decoration: none;
 }
+body{
+    margin: 0;
+    padding: 0;
+    background: rgb(130,128,128);
+    background: linear-gradient(356deg, rgba(130,128,128,1) 21%, rgba(8,0,0,1) 49%, rgba(168,168,167,1) 100%);
+}
+
 section{
-    background-color:rgb(71, 70, 70);
+    height: 1000px;
+    max-height: 100%;
+    
 }
 .main-div{
-    border:1px solid gray;
     width: 300px;
+    margin: 100px 100px;
+    box-shadow: -15px 20px 10px black;
+    
 }
 
 
@@ -17,11 +28,19 @@ section{
     width: 300px;
     background-color: orange;
     padding: 15px;
+    position: relative;
+    border-radius: 10px 10px 0 0;
 }
-.first img{
+.logo{
     width: 55px;
     height: 50px;
-    background-color: orange;
+}
+.shoes{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top:-30px;
+    left: 70px;
 }
 .first h4{
     color:#fff ;
@@ -40,7 +59,7 @@ section{
     font-size: 100px;
     margin-block-start: 0;
     margin-block-end: 0;
-    opacity: 0.08;
+    opacity: 0.07;
 }
 .second{
     width: 300px;
@@ -48,6 +67,7 @@ section{
     flex-wrap: wrap;
     padding:15px ;
     background-color: #fff;
+    border-radius: 0 0 10px 10px;
 }
 .second h4{
     width: 80%;
@@ -87,6 +107,16 @@ section{
     margin-right: 20px;
     font-size: 15px;
 }
+.absol{
+    background-color:rgb(0, 195, 255);
+    position:absolute;
+    margin: 170px 130px;
+    padding:0 40px 0 40px;
+    border-radius: 7px;
+    color: white;
+    box-shadow: -2px 2px 5px aqua;
+}
+
 .nine{
     border-radius: 50%;
     background-color: rgb(255, 230, 0);
@@ -111,6 +141,7 @@ section{
     background-color:rgb(13, 13, 124);
     border-radius: 50%;
     margin-left: 20px;
+    margin-bottom: 40px;
 }
 
 
