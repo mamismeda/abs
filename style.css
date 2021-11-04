@@ -14,7 +14,7 @@ body{
 section{
     height: 1000px;
     max-height: 100%;
-    
+    display: inline-block;
 }
 .main-div{
     width: 300px;
